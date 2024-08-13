@@ -26,10 +26,10 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 ### Model Architecture
 The CNN model used in this project has the following architecture:
 
-**Convolutional Layers:** Extract spatial features from the images.
-**Pooling Layers:** Reduce the dimensionality of the feature maps.
-**Flattening:** To flatten the pooled matrix to a vector.
-**Fully Connected Layers:** Combine the features to make predictions.
+**Convolutional Layers:** Extract spatial features from the images.<br>
+**Pooling Layers:** Reduce the dimensionality of the feature maps.<br>
+**Flattening:** To flatten the pooled matrix to a vector.<br>
+**Fully Connected Layers:** Combine the features to make predictions.<br>
 **Activation Functions:** ReLU for hidden layers and sigmoid for the output layer.
 
 ### Installation
@@ -54,8 +54,8 @@ To run this project locally, follow these steps:
      python convolutional_neural_network.py
 
 ### How to Use
-- **Training:** The model can be trained by running the main.py script.
-- **Evaluation:** After training, the model can be evaluated on the test dataset to measure its performance.
+- **Training:** The model can be trained by running the main.py script.<br>
+- **Evaluation:** After training, the model can be evaluated on the test dataset to measure its performance.<br>
 - **Prediction:** You can use the trained model to predict whether a new image is of a dog or a cat.
 
 
